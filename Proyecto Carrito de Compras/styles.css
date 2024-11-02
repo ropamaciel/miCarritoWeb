@@ -1,0 +1,157 @@
+
+html {
+   background-color: blanchedalmond;
+    font-size: 16px;
+ }
+h1 {
+    font-family: "PT Sans", sans-serif;
+    color:rgb(56, 98, 13);
+    font-size:36px;
+    }
+
+p {
+
+   color: rgb(195, 210, 28); 
+}
+
+h2 {
+    /* este es para cambiar el color a los h2 
+    background-color: rgb(51, 233, 154); */
+    color:rgb(12, 65, 38)
+} 
+h4 {
+
+    color: #2719c3;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-style: oblique;
+}
+#tortas{
+
+   background-image: url(imagenes/fondo1.jpeg);
+   background-size: cover; /* hace que la imagen sea solo una y ocupe todo*/
+   background-position: center;
+    margin-top: 1px;
+    border: 4px solid black;
+    padding: 15px;
+    
+    
+ }
+ 
+ main section p{
+    color:rgb(14, 86, 69)
+ }
+ main section div p{
+    color:aquamarine
+ }
+
+ .tarjetas{
+   
+   flex-wrap: wrap;
+   gap:20px;   
+   justify-content: space-around;
+   font-size: 10px;
+  
+} 
+.tarjeta{
+   max-width: 250px;
+   background-color: rgb(3, 83, 62);
+   border: 2px solid black;
+   padding: 1rem;
+    
+ }  
+   
+ #tortas img{
+    width: 100%;
+ }
+ 
+
+form {
+    background-color: beige;
+    color: rgb(17, 1, 1);
+
+}
+.titulo-verde{
+
+    color: blue;
+}
+
+
+header nav li {
+     list-style: none;
+   }
+
+.video-container {
+    border: 3px solid black; /* Cambia el color y el grosor del borde según necesites */
+    display: inline-block; /* Para ajustar el tamaño del contenedor al video */
+}
+ a {
+    text-decoration: none; /* le saca el subrayado al enlace */
+    color:rgb(57, 146, 167);
+  }
+  
+ li {
+
+        color: rgb(7, 1, 5);
+ }
+ header{
+
+    margin: 40px 10px 15px 35px;
+    padding: 15px;
+
+ }
+ 
+ body{
+    font-size: 20px;
+    margin:0 20vh; /*en relacion a la ventana del navegador*/
+    
+ } 
+
+ 
+.reseñas{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem;
+   margin-top: 1rem;
+   height: 30rem;
+
+}  
+@media (width < 1000px){
+   .reseñas{
+      grid-template-columns: repeat(2, 1fr);
+      gap: .5rem;
+   }
+
+
+}
+ .reseña{
+   width: 15rem;
+   height: 25rem;
+   border: 1px solid black;
+   border-radius: 3rem;
+   padding: 1rem;
+ }
+ .elemento2{
+   background-color: blue;
+   grid-row-start: 2;
+   grid-row-end: 3;
+   grid-column-start: 1;
+   grid-column-end: 3;
+
+
+
+ }
+
+ #pagina-footer {
+
+   background-color: rgb(214, 230, 223);
+   margin-top: 45px;
+   border: 4px solid green;
+   padding: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+footer p{
+   color:beige;
+}
